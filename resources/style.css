@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url("font/OpenSans-Semibold.ttf") format("TrueType");
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url("font/OpenSans-Bold.ttf") format("TrueType");
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans ExtraBold';
+  src: url("font/OpenSans-ExtraBold.ttf") format("TrueType");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url("font/OpenSans-Regular.ttf") format("TrueType");
+  font-style: normal;
+}
+
+
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  border:none;
+}
+
+iframe[id^="vmx-frameInt_"] {
+  /* @if environment != 'jio' */
+  position: relative;
+  top: 26px;
+  /* @endif */
+  background-color: black;
+}
+
+.holds-the-iframe {
+    background:url(../assets/loading.png) center center no-repeat;
+}
